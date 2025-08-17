@@ -86,11 +86,109 @@ This design ensures **encapsulation, data security, and modularity**.
 - Improves **Code Maintenance**: clear separation of internal (private) and external (public) parts of the class.  
 
 ---
+# Experiment 11 - Object-Oriented Programming in C++
+
+This experiment demonstrates different applications of **classes, objects, and methods** in C++.
+
+---
+# Programs on OOPS in C++
+
+## Program 1: Student Details using Class
+
+### Explanation
+- A class `Student` is created with data members: `name`, `branch`, `subject`, and `result`.  
+- Two objects are created for two students.  
+- Their details are assigned and displayed.
+
+### Algorithm
+1. Start the program.  
+2. Define a class `Student` with attributes: name, branch, subject, result.  
+3. Create two objects `s1` and `s2`.  
+4. Assign values for each student.  
+5. Print the details.  
+6. End.  
+
+
+---
+
+##  Program 2: Vehicle Details using Class (Car and Bike)
+
+### Explanation
+- Two classes `Car` and `Bike` are created with data members: name, brand, colour, year, cost.  
+- Multiple objects are created for cars and bikes.  
+- The details are entered by the user and then displayed.  
+
+### Algorithm
+1. Start the program.  
+2. Define classes `Car` and `Bike` with attributes.  
+3. Create two car objects and two bike objects.  
+4. Accept details of cars and bikes from the user.  
+5. Print the details of each vehicle.  
+6. End.
+     
+---
+##  Program 3: Area of Rectangle using Class and Method
+
+### Explanation
+- A class `Rectangle` is defined with two data members: `length` and `width`.  
+- A method `area()` calculates the area of the rectangle.  
+- If both sides are equal, the program also checks and prints that the shape is a **square**.
+
+### Algorithm
+1. Start the program.  
+2. Define a class `Rectangle` with members `length`, `width`, and a method `area()`.  
+3. Take input for length and width from the user.  
+4. If both values are equal, display "It is a square".  
+5. Otherwise, calculate and display the area.  
+6. End.  
+
+---
+
+---
+
+##  Program 4: Calculator using Class and Methods
+
+### Explanation
+- A class `Calculator` is created with two data members `a` and `b`.  
+- Four methods are defined: `addition()`, `subtraction()`, `multiplication()`, and `division()`.  
+- The user enters two numbers, and all four operations are performed.
+
+### Algorithm
+1. Start the program.  
+2. Define a class `Calculator` with methods for addition, subtraction, multiplication, division.  
+3. Input two numbers from the user.  
+4. Call each method and display the result.  
+5. Handle division by zero separately.  
+6. End.  
+
+
+---
+
+##  Program 5: Volume of Cube using Class
+
+### Explanation
+- A class `Cube` is created with data members: height, width, length.  
+- A method `volume()` calculates the volume of the cube.  
+- The program fixes any error in the earlier implementation and successfully displays the volume.
+
+### Algorithm
+1. Start the program.  
+2. Define class `Cube` with attributes: height, width, length.  
+3. Define method `volume()` that multiplies all three.  
+4. Create an object of `Cube`.  
+5. Calculate and print the height and volume.  
+6. End.  
+
 
 ## Conclusion
-- **Classes** are blueprints, and **objects** are real instances.  
-- **Private members** ensure that sensitive data is hidden from direct access.  
-- **Public methods** act as the interface through which outside code interacts with the object.  
-- Together, they implement **Encapsulation**, one of the key pillars of OOP.  
+From Experiment 11, we conclude that:
+
+- **Classes** are the basic building blocks of Object-Oriented Programming in C++.  
+- **Objects** are real entities created from a class and can hold independent values.  
+- **Methods (member functions)** allow us to perform operations on the data members of a class.  
+- By using **public members**, we provide a safe interface for the user, while **private members** secure sensitive data and maintain encapsulation.  
+- Different programs like **Rectangle area, Student details, Vehicle information, Calculator, and Cube volume** show that classes and objects can model **real-life entities and problems effectively**.  
+
+ Overall, these programs demonstrate the importance of **encapsulation, data abstraction, and modularity** in C++ OOPs.
 
 
