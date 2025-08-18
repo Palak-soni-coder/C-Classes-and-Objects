@@ -159,8 +159,35 @@ This design ensures **encapsulation, data security, and modularity**.
 
 
 ---
+## Program 5: To Define Method Inside a Class and Outside a Class
+### Explanation:-
 
-##  Program 5: Volume of Cube using Class
+In this experiment:
+Volume() is defined inside the class.<br>
+myVolume() is declared inside but defined outside the class.<br>
+Both functions calculate and print the volume of the cuboid, but they demonstrate the two valid approaches of defining methods in C++
+Both inside and outside definitions are valid, and we can use them together in the same program depending on the complexity of the function.
+
+### Algorithm
+
+1. Start the program.
+
+2. Define class MyClass with height, width, length.
+
+3. Define method Volume() inside the class.
+
+4. Declare method myVolume() inside and define it outside the class.
+
+5. In main(), create an object M1.
+
+6. Call M1.Volume() and M1.myVolume() to display results.
+
+7. Stop.
+
+---
+
+
+##  Program 6:Find error in code (concept of public and private and methods in class & outside class )
 
 ### Explanation
 - A class `Cube` is created with data members: height, width, length.  
