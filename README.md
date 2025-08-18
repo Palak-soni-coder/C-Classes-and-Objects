@@ -87,6 +87,23 @@ This design ensures **encapsulation, data security, and modularity**.
 
 ---
 
+## Defining Methods Inside and Outside a Class in C++
+
+-In C++, member functions (methods) of a class can be defined in two ways:
+### Inside the Class
+-Function is written directly inside the class body.
+-Automatically treated as inline by the compiler.
+-Suitable for small and simple functions.
+
+ ### Outside the Class
+
+- Function is only declared inside the class.
+
+- Its definition is written separately using the scope resolution operator ::.
+
+- Suitable for large and complex functions, improves code readability.
+
+
 # Programs on OOPS in C++
 
 ## Program 1: Student Details using Class
