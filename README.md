@@ -79,18 +79,14 @@ This design ensures **encapsulation, data security, and modularity**.
 
 ---
 
-## ✅ Advantages of Using Public and Private
+##  Advantages of Using Public and Private
 - Provides **Encapsulation**: keeps sensitive data hidden.  
 - Ensures **Security**: prevents unauthorized modification.  
 - Promotes **Data Integrity**: public methods validate before updating values.  
 - Improves **Code Maintenance**: clear separation of internal (private) and external (public) parts of the class.  
 
 ---
-# Experiment 11 - Object-Oriented Programming in C++
 
-This experiment demonstrates different applications of **classes, objects, and methods** in C++.
-
----
 # Programs on OOPS in C++
 
 ## Program 1: Student Details using Class
